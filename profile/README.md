@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo-viscocrowd.png" alt="Logo ViscoCrowd : des lettres liquides, une foule et l'équation de Navier-Stokes" width="200">
+<img src="assets/logo-viscocrowd.svg" alt="Logo animé ViscoCrowd : des courbes mathématiques s'écrivent, les lettres tombent une à une, puis l'eau monte et les remplit" width="100%">
 
 <img src="assets/banniere.svg" alt="Illustration animée : des agents quittent une piscine par le rebord et les échelles, traversent une plage mouillée et convergent vers une sortie unique" width="100%">
 
@@ -15,6 +15,18 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-figures-11557C)
 ![LaTeX](https://img.shields.io/badge/Rapport-LaTeX-008080?logo=latex&logoColor=white)
 ![Licence MIT](https://img.shields.io/badge/licence-MIT-22c55e)
+
+<br>
+
+<table>
+<tr>
+<td align="center"><b>236</b><br><sub>tests</sub></td>
+<td align="center"><b>23</b><br><sub>invariants physiques</sub></td>
+<td align="center"><b>0 / 1500</b><br><sub>projections non convergées</sub></td>
+<td align="center"><b>≤ 10⁻⁶ m</b><br><sub>recouvrement résiduel</sub></td>
+<td align="center"><b>3 / 6</b><br><sub>jalons franchis</sub></td>
+</tr>
+</table>
 
 </div>
 

@@ -21,6 +21,7 @@ jobs:
         run: |
           python scripts/gen_assets.py "$RUNNER_TEMP/assets"
           python scripts/gen_extra.py "$RUNNER_TEMP/assets" profile/assets/avatars
+          python scripts/gen_logo.py "$RUNNER_TEMP/assets"
 
       - name: Valider les SVG et les liens du README
         run: python scripts/verifier.py
