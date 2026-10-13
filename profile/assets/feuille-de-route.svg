@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-label="Feuille de route : jalons 0 a 2 termines, jalon 3 a venir, rendu le 5 janvier 2027.">
+<defs><linearGradient id="fait" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0ea5e9"/><stop offset="1" stop-color="#22d3ee"/></linearGradient><filter id="lueur2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<rect width="1200" height="330" rx="22" fill="#0b1220"/>
+<text x="48" y="54" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="25" font-weight="800" fill="#f1f5f9">Où on en est</text>
+<text x="48" y="80" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8">13 semaines, 6 jalons, un rendu le 5 janvier 2027.</text>
+<line x1="80" y1="168" x2="1148" y2="168" stroke="#1e293b" stroke-width="8" stroke-linecap="round"/>
+<line x1="80" y1="168" x2="80" y2="168" stroke="url(#fait)" stroke-width="8" stroke-linecap="round"><animate attributeName="x2" values="80;384;384" keyTimes="0;.3;1" dur="6s" fill="freeze" repeatCount="1"/><set attributeName="x2" to="384" begin="6s" fill="freeze"/></line>
+<circle r="6" cy="168" fill="#e0f2fe" filter="url(#lueur2)"><animate attributeName="cx" values="80;384" dur="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="80" cy="168" r="19" fill="url(#fait)"/>
+<path d="M72 168 l5.5 6 l10 -12" fill="none" stroke="#0b1220" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="80" y="218" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f1f5f9">J0 · Socle</text>
+<text x="80" y="240" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">S1</text>
+<circle cx="232" cy="168" r="19" fill="url(#fait)"/>
+<path d="M224 168 l5.5 6 l10 -12" fill="none" stroke="#0b1220" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="232" y="218" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f1f5f9">J1 · Moteur</text>
+<text x="232" y="240" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">S2–S3</text>
+<circle cx="384" cy="168" r="19" fill="url(#fait)"/>
+<path d="M376 168 l5.5 6 l10 -12" fill="none" stroke="#0b1220" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="384" y="218" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f1f5f9">J2 · Exclusion</text>
+<text x="384" y="240" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">S4–S5</text>
+<circle cx="536" cy="168" r="19" fill="none" stroke="#facc15" stroke-width="3"><animate attributeName="r" values="19;30;19" dur="2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".9;0;.9" dur="2s" repeatCount="indefinite"/></circle>
+<circle cx="536" cy="168" r="17" fill="#0b1220" stroke="#facc15" stroke-width="3"/>
+<text x="536" y="173" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" fill="#facc15">J3</text>
+<text x="536" y="218" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f1f5f9">Guidage + milieux</text>
+<text x="536" y="240" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">S6–S7</text>
+<circle cx="688" cy="168" r="17" fill="#0b1220" stroke="#334155" stroke-width="3"/>
+<text x="688" y="173" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" fill="#64748b">J4</text>
+<text x="688" y="218" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#94a3b8">Scénario piscine</text>
+<text x="688" y="240" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">S8–S9</text>
+<circle cx="840" cy="168" r="17" fill="#0b1220" stroke="#334155" stroke-width="3"/>
+<text x="840" y="173" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" fill="#64748b">J5</text>
+<text x="840" y="218" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#94a3b8">Campagnes</text>
+<text x="840" y="240" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">S10–S11</text>
+<circle cx="992" cy="168" r="17" fill="#0b1220" stroke="#334155" stroke-width="3"/>
+<text x="992" y="173" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" fill="#64748b">J6</text>
+<text x="992" y="218" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#94a3b8">Rapport</text>
+<text x="992" y="240" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">S12–S13</text>
+<g><rect x="266" y="94" width="236" height="34" rx="17" fill="#082f49" stroke="#0ea5e9"/><text x="384" y="116" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="#bae6fd">J2 livré en S2 · prévu S4–S5</text><path d="M377 128 l7 9 l7 -9z" fill="#0ea5e9"/></g>
+<circle cx="1148" cy="168" r="9" fill="#fb7185"/>
+<g><rect x="1028" y="94" width="134" height="34" rx="17" fill="#3f0d1d" stroke="#fb7185"/><text x="1095" y="116" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="#fecdd3">rendu · 5 janv.</text><path d="M1141 128 l7 9 l7 -9z" fill="#fb7185"/></g>
+<text x="1152" y="276" text-anchor="end" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#f9a8d4">soutenance · 19 janv. 2027</text>
+</svg>
