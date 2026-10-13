@@ -1,0 +1,26 @@
+name: Profil
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  verifier:
+    name: Verifier le profil de l'organisation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Les generateurs n'utilisent que la bibliotheque standard : aucune dependance a installer.
+      # On les rejoue dans un dossier temporaire pour garantir qu'ils tournent toujours.
+      - name: Regenerer les animations
+        run: |
+          python scripts/gen_assets.py "$RUNNER_TEMP/assets"
+          python scripts/gen_extra.py "$RUNNER_TEMP/assets" profile/assets/avatars
+
+      - name: Valider les SVG et les liens du README
+        run: python scripts/verifier.py
